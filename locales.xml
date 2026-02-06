@@ -1,0 +1,14 @@
+<suite name="Multi-Locale Suite">
+    <test name="India + US Tests">
+        <groups>
+            <run>
+                <include name="IN"/>
+                <include name="US"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="tests.LandingPageIndia"/>
+        </classes>
+    </test>
+</suite>

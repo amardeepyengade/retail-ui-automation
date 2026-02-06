@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="9" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-06T16:55:43 IST" name="Smoke Suite" finished-at="2026-02-06T16:56:32 IST" duration-ms="49340">
+    <groups>
+      <group name="smoke">
+        <method signature="LandingPageIndiaTest.testCompleteStoreListLink()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" name="testCompleteStoreListLink" class="com.retail.ui.automation.test.LandingPageIndiaTest"/>
+        <method signature="LandingPageIndiaTest.testFindAstoreLink()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" name="testFindAstoreLink" class="com.retail.ui.automation.test.LandingPageIndiaTest"/>
+        <method signature="LandingPageIndiaTest.testMagnifyingIconInSearchBar()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" name="testMagnifyingIconInSearchBar" class="com.retail.ui.automation.test.LandingPageIndiaTest"/>
+        <method signature="LandingPageIndiaTest.testPageHeadline()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" name="testPageHeadline" class="com.retail.ui.automation.test.LandingPageIndiaTest"/>
+        <method signature="LandingPageIndiaTest.testPageHeadlineText()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" name="testPageHeadlineText" class="com.retail.ui.automation.test.LandingPageIndiaTest"/>
+        <method signature="LandingPageIndiaTest.testPageTitle()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" name="testPageTitle" class="com.retail.ui.automation.test.LandingPageIndiaTest"/>
+        <method signature="LandingPageIndiaTest.testProgramCardHeaderIsPresent()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" name="testProgramCardHeaderIsPresent" class="com.retail.ui.automation.test.LandingPageIndiaTest"/>
+        <method signature="LandingPageIndiaTest.testProgramCardHeaderText()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" name="testProgramCardHeaderText" class="com.retail.ui.automation.test.LandingPageIndiaTest"/>
+        <method signature="LandingPageIndiaTest.testSearchBarIsPresent()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" name="testSearchBarIsPresent" class="com.retail.ui.automation.test.LandingPageIndiaTest"/>
+        <method signature="LandingPageIndiaTest.testStoreCardAppleBKC()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" name="testStoreCardAppleBKC" class="com.retail.ui.automation.test.LandingPageIndiaTest"/>
+        <method signature="LandingPageIndiaTest.testStoreCardAppleHebbal()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" name="testStoreCardAppleHebbal" class="com.retail.ui.automation.test.LandingPageIndiaTest"/>
+        <method signature="LandingPageIndiaTest.testStoreCardAppleKoregaonPark()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" name="testStoreCardAppleKoregaonPark" class="com.retail.ui.automation.test.LandingPageIndiaTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-02-06T16:55:43 IST" name="Smoke Tests" finished-at="2026-02-06T16:56:32 IST" duration-ms="49340">
+      <class name="com.retail.ui.automation.test.LandingPageIndiaTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:55:43 IST" name="setup" finished-at="2026-02-06T16:55:46 IST" duration-ms="3278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:55:46 IST" name="setupTest" finished-at="2026-02-06T16:55:46 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testCompleteStoreListLink()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:55:46 IST" name="testCompleteStoreListLink" finished-at="2026-02-06T16:55:46 IST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleteStoreListLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:55:46 IST" name="tearDown" finished-at="2026-02-06T16:55:46 IST" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:55:47 IST" name="setup" finished-at="2026-02-06T16:55:48 IST" duration-ms="1912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:55:48 IST" name="setupTest" finished-at="2026-02-06T16:55:48 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testFindAstoreLink()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:55:48 IST" name="testFindAstoreLink" finished-at="2026-02-06T16:55:48 IST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindAstoreLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:55:48 IST" name="tearDown" finished-at="2026-02-06T16:55:49 IST" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:55:49 IST" name="setup" finished-at="2026-02-06T16:55:51 IST" duration-ms="1849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testMagnifyingIconInSearchBar()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:55:51 IST" name="testMagnifyingIconInSearchBar" finished-at="2026-02-06T16:55:51 IST" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMagnifyingIconInSearchBar -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:55:51 IST" name="setupTest" finished-at="2026-02-06T16:55:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:55:51 IST" name="tearDown" finished-at="2026-02-06T16:55:51 IST" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:55:51 IST" name="setup" finished-at="2026-02-06T16:55:53 IST" duration-ms="1624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:55:53 IST" name="setupTest" finished-at="2026-02-06T16:55:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testPageHeadline()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:55:53 IST" name="testPageHeadline" finished-at="2026-02-06T16:55:53 IST" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageHeadline -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:55:53 IST" name="tearDown" finished-at="2026-02-06T16:55:53 IST" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:55:53 IST" name="setup" finished-at="2026-02-06T16:55:55 IST" duration-ms="1838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testPageHeadlineText()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:55:55 IST" name="testPageHeadlineText" finished-at="2026-02-06T16:55:55 IST" duration-ms="461" status="FAIL">
+          <exception class="java.lang.ExceptionInInitializerError">
+            <full-stacktrace>
+              <![CDATA[java.lang.ExceptionInInitializerError
+at com.retail.ui.automation.test.LandingPageIndiaTest.testPageHeadlineText(LandingPageIndiaTest.java:59)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.RuntimeException: Failed to initialize ExpectedJsonReader
+at com.retail.ui.automation.utils.test.ExpectedJsonReader.<clinit>(ExpectedJsonReader.java:29)
+... 29 more
+Caused by: java.lang.RuntimeException: expected.json not found in classpath
+at com.retail.ui.automation.utils.test.ExpectedJsonReader.<clinit>(ExpectedJsonReader.java:22)
+... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ExceptionInInitializerError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageHeadlineText -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:55:55 IST" name="setupTest" finished-at="2026-02-06T16:55:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:55:55 IST" name="tearDown" finished-at="2026-02-06T16:55:56 IST" duration-ms="363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:55:56 IST" name="setup" finished-at="2026-02-06T16:55:58 IST" duration-ms="1883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testPageTitle()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:55:58 IST" name="testPageTitle" finished-at="2026-02-06T16:55:58 IST" duration-ms="12" status="FAIL">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[Could not initialize class com.retail.ui.automation.utils.test.ExpectedJsonReader]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: Could not initialize class com.retail.ui.automation.utils.test.ExpectedJsonReader
+at com.retail.ui.automation.test.LandingPageIndiaTest.testPageTitle(LandingPageIndiaTest.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageTitle -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:55:58 IST" name="setupTest" finished-at="2026-02-06T16:55:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:55:58 IST" name="tearDown" finished-at="2026-02-06T16:55:58 IST" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:55:58 IST" name="setup" finished-at="2026-02-06T16:56:00 IST" duration-ms="1950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testProgramCardHeaderIsPresent()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:56:00 IST" name="testProgramCardHeaderIsPresent" finished-at="2026-02-06T16:56:05 IST" duration-ms="4676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProgramCardHeaderIsPresent -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:56:00 IST" name="setupTest" finished-at="2026-02-06T16:56:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:56:05 IST" name="tearDown" finished-at="2026-02-06T16:56:05 IST" duration-ms="393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:56:05 IST" name="setup" finished-at="2026-02-06T16:56:07 IST" duration-ms="1794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testProgramCardHeaderText()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:56:07 IST" name="testProgramCardHeaderText" finished-at="2026-02-06T16:56:07 IST" duration-ms="105" status="FAIL">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[Could not initialize class com.retail.ui.automation.utils.test.ExpectedJsonReader]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: Could not initialize class com.retail.ui.automation.utils.test.ExpectedJsonReader
+at com.retail.ui.automation.test.LandingPageIndiaTest.testProgramCardHeaderText(LandingPageIndiaTest.java:114)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProgramCardHeaderText -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:56:07 IST" name="setupTest" finished-at="2026-02-06T16:56:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:56:07 IST" name="tearDown" finished-at="2026-02-06T16:56:07 IST" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:56:07 IST" name="setup" finished-at="2026-02-06T16:56:09 IST" duration-ms="1805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSearchBarIsPresent()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:56:09 IST" name="testSearchBarIsPresent" finished-at="2026-02-06T16:56:09 IST" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchBarIsPresent -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:56:09 IST" name="setupTest" finished-at="2026-02-06T16:56:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:56:09 IST" name="tearDown" finished-at="2026-02-06T16:56:09 IST" duration-ms="390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:56:09 IST" name="setup" finished-at="2026-02-06T16:56:11 IST" duration-ms="1513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testStoreCardAppleBKC()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:56:11 IST" name="testStoreCardAppleBKC" finished-at="2026-02-06T16:56:18 IST" duration-ms="6537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStoreCardAppleBKC -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:56:11 IST" name="setupTest" finished-at="2026-02-06T16:56:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:56:18 IST" name="tearDown" finished-at="2026-02-06T16:56:18 IST" duration-ms="417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:56:18 IST" name="setup" finished-at="2026-02-06T16:56:20 IST" duration-ms="2106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testStoreCardAppleHebbal()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:56:20 IST" name="testStoreCardAppleHebbal" finished-at="2026-02-06T16:56:25 IST" duration-ms="4432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStoreCardAppleHebbal -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:56:20 IST" name="setupTest" finished-at="2026-02-06T16:56:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:56:25 IST" name="tearDown" finished-at="2026-02-06T16:56:25 IST" duration-ms="429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:56:25 IST" name="setup" finished-at="2026-02-06T16:56:27 IST" duration-ms="1682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testStoreCardAppleKoregaonPark()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:56:27 IST" name="testStoreCardAppleKoregaonPark" finished-at="2026-02-06T16:56:32 IST" duration-ms="4923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStoreCardAppleKoregaonPark -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:56:27 IST" name="setupTest" finished-at="2026-02-06T16:56:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.retail.ui.automation.test.LandingPageIndiaTest@175c2241]" started-at="2026-02-06T16:56:32 IST" name="tearDown" finished-at="2026-02-06T16:56:32 IST" duration-ms="406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.retail.ui.automation.test.LandingPageIndiaTest -->
+    </test> <!-- Smoke Tests -->
+  </suite> <!-- Smoke Suite -->
+</testng-results>
