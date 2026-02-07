@@ -22,7 +22,7 @@
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>7.9.0</version>
-            <scope>test</scope>
+            <scope>compile</scope>
         </dependency>
 
         <!-- WebDriverManager -->
@@ -43,6 +43,13 @@
     <artifactId>jackson-databind</artifactId>
     <version>2.15.2</version>
 </dependency>
+
+<!-- Allure TestNG -->
+<dependency>
+    <groupId>io.qameta.allure</groupId>
+    <artifactId>allure-testng</artifactId>
+    <version>2.25.0</version>
+</dependency>
     </dependencies>
 
     <build>
@@ -52,11 +59,20 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.2.5</version>
                 <configuration>
-                    <suiteXmlFiles>
-                        <suiteXmlFile>testng.xml</suiteXmlFile>
-                    </suiteXmlFiles>
-                </configuration>
+        <!-- Run TestNG suite -->
+        <suiteXmlFiles>
+            <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
+        </suiteXmlFiles>
+
+        <!-- Allure results directory -->
+        <systemPropertyVariables>
+            <allure.results.directory>
+                ${project.build.directory}/allure-results
+            </allure.results.directory>
+        </systemPropertyVariables>
+    </configuration>
             </plugin>
+           
         </plugins>
     </build>
 </project>

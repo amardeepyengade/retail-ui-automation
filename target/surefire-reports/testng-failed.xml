@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Smoke Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Smoke Tests(failed)" verbose="0">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.retail.ui.automation.test.LandingPageIndiaTest">
+        <methods>
+          <include name="setup"/>
+          <include name="testProgramCardHeaderText"/>
+          <include name="tearDown"/>
+          <include name="testPageTitle"/>
+          <include name="testPageHeadlineText"/>
+          <include name="setupTest"/>
+        </methods>
+      </class> <!-- com.retail.ui.automation.test.LandingPageIndiaTest -->
+    </classes>
+  </test> <!-- Smoke Tests(failed) -->
+</suite> <!-- Failed suite [Smoke Suite] -->
