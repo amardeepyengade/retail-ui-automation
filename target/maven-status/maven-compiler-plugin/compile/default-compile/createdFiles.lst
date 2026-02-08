@@ -1,8 +1,0 @@
-com\retail\ui\automation\base\BasePage.class
-com\retail\ui\automation\utils\WaitUtils.class
-com\retail\ui\automation\utils\TestUtils.class
-com\retail\ui\automation\base\BaseTest.class
-com\retail\ui\automation\pages\LandingPageIndia.class
-com\retail\ui\automation\india\stores\pages\AppleKoregaonPark.class
-com\retail\ui\automation\india\stores\pages\AppleBKC.class
-com\retail\ui\automation\india\stores\pages\AppleHebbal.class
