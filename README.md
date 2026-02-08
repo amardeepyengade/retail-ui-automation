@@ -1,7 +1,7 @@
 # Retail UI Automation Framework
 
-This repository contains a **UI automation testing framework** built using **Java, Selenium WebDriver, TestNG, Maven**, and **Allure Reports**.  
-The framework is designed following **Page Object Model (POM)** principles for better readability, scalability, and maintainability.
+This repository contains a UI automation framework built using Selenium + TestNG + Maven, with parallel execution support and Allure reporting.
+The framework follows Page Object Model (POM) and is designed to be scalable, stable, and CI-friendly.
 
 ---
 
@@ -44,11 +44,15 @@ The framework is designed following **Page Object Model (POM)** principles for b
 ## ⚙️ Framework Features
 
 - Page Object Model (POM) design
-- Centralized WebDriver management
+- Thread-safe WebDriver using ThreadLocal
+- Parallel execution using TestNG
+- Explicit waits (no Thread.sleep)
+- Automatic screenshot capture on failure
+- Allure reporting integration
 - JSON-based expected test data
 - Test grouping using TestNG (`smoke`, `sanity`)
 - Cross-browser support (Chrome / Firefox)
-- Allure HTML reports
+- Clean Git hygiene (target & reports ignored)
 - Maven-based execution
 
 ---
@@ -75,14 +79,42 @@ mvn clean test
 ▶️ Run via TestNG suite
 mvn clean test -DsuiteXmlFile=src/test/resources/testng.xml
 
+⚡ Parallel Execution
+
+Parallel execution is enabled using TestNG and ThreadLocal WebDriver.
+
+- Each test runs in its own thread
+
+- Each thread has its own browser instance
+
+- Execution time is significantly reduced
+
+  Example (testng.xml):
+  <suite name="Smoke Suite" parallel="methods" thread-count="3">
+  
+
 📊 Allure Reports
+
+What Allure Captures:
+
+-Test execution status
+
+-Failure screenshots
+
+-Step-level details
+
+-Execution timeline
+
 Generate report
 allure serve target/allure-results
-
 
 This will open the Allure report automatically in your browser.
 
 ⚠️ allure-results and target folders are ignored via .gitignore.
+
+📸 Screenshot on Failure
+
+Screenshots are automatically attached to Allure reports when a test fails.
 
 🧾 Configuration
 
@@ -104,12 +136,27 @@ Single Responsibility
 
 Reusable utilities
 
-Separation of test logic & UI logic
+Separation of test logic & UI logic 
+
+
+🧹 Git Ignore Strategy
+
+- Ignored files/folders:
+
+- target/
+
+- allure-results/
+
+- allure-report/
+
+- IDE config files (.classpath, .settings, .idea)
+
+This keeps the repository clean and lightweight.
 
 📌 Author
 
 Amardeep Yengade
-QA Automation Engineer
+UI Automation Engineer
 
 📜 License
 
