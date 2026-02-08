@@ -2,25 +2,26 @@ package com.retail.ui.automation.utils;
 
 import java.time.Duration;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import com.retail.ui.automation.base.BaseTest;
-
-public class WaitUtils extends BaseTest{
+public class WaitUtils{
 
 	
-	private WebDriverWait wait;
+	 private WebDriverWait wait;
 
-    public WaitUtils(WebDriver driver) {
-        this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-    }
+	    public WaitUtils(WebDriver driver) {
+	        this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	    }
 
-    public WebElement waitForElementVisible(WebElement element) {
-        return wait.until(ExpectedConditions.visibilityOf(element));
-    }
+	    public WebElement waitForElementVisible(By locator) {
+	        return wait.until(
+	            ExpectedConditions.visibilityOfElementLocated(locator)
+	        );
+	    }
 		
 	}
 

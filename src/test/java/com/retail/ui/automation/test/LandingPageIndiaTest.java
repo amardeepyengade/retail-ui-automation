@@ -8,14 +8,14 @@ import com.retail.ui.automation.base.BaseTest;
 import com.retail.ui.automation.pages.LandingPageIndia;
 import com.retail.ui.automation.utils.test.ExpectedJsonReader;
 
-public class LandingPageIndiaTest extends BaseTest{
-	
-	private LandingPageIndia landingPageIndia;
+public class LandingPageIndiaTest extends BaseTest {
+
+    private LandingPageIndia landingPageIndia;
 
     @BeforeMethod(alwaysRun = true)
     public void setupTest() {
-        // BaseTest.setup() is automatically executed
-        landingPageIndia = new LandingPageIndia(driver);
+        // BaseTest.setup() runs automatically
+        landingPageIndia = new LandingPageIndia();
     }
 
     @Test(groups = "smoke")
@@ -78,7 +78,7 @@ public class LandingPageIndiaTest extends BaseTest{
     public void testStoreAppleKoregaonPark() {
         landingPageIndia.openAppleKoregaonPark();
         Assert.assertEquals(
-            driver.getTitle(),
+            getDriver().getTitle(),
             ExpectedJsonReader.getExpectedValue("landingPageIN", "appleKoregaonParkPageTitle")
         );
     }
@@ -87,7 +87,7 @@ public class LandingPageIndiaTest extends BaseTest{
     public void testStoreAppleHebbal() {
         landingPageIndia.openAppleHebbal();
         Assert.assertEquals(
-            driver.getTitle(),
+            getDriver().getTitle(),
             ExpectedJsonReader.getExpectedValue("landingPageIN", "appleHebbalPageTitle")
         );
     }
@@ -96,7 +96,7 @@ public class LandingPageIndiaTest extends BaseTest{
     public void testStoreAppleBKC() {
         landingPageIndia.openAppleBKC();
         Assert.assertEquals(
-            driver.getTitle(),
+            getDriver().getTitle(),
             ExpectedJsonReader.getExpectedValue("landingPageIN", "appleBKCPageTitle")
         );
     }

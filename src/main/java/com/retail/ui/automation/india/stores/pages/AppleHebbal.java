@@ -1,14 +1,11 @@
 package com.retail.ui.automation.india.stores.pages;
 
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
+import com.retail.ui.automation.base.BaseTest;
 
-public class AppleHebbal {
+public class AppleHebbal extends BaseTest {
 
-	 private WebDriver driver;
-
-	    public AppleHebbal(WebDriver driver) {
-	        this.driver = driver;
-	        PageFactory.initElements(driver, this);
-	    }
+    public AppleHebbal() {
+        PageFactory.initElements(getDriver(), this);
+    }
 }

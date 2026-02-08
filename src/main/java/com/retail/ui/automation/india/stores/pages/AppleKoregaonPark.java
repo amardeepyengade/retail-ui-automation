@@ -1,14 +1,12 @@
 package com.retail.ui.automation.india.stores.pages;
 
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
-public class AppleKoregaonPark{
+import com.retail.ui.automation.base.BaseTest;
+
+public class AppleKoregaonPark extends BaseTest{
 	
-	private WebDriver driver;
-	
-	public AppleKoregaonPark(WebDriver driver) {
-        this.driver = driver;
-        PageFactory.initElements(driver, this);
+	public AppleKoregaonPark() {
+		 PageFactory.initElements(getDriver(), this);
     }
 }

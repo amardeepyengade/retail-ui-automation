@@ -1,9 +1,9 @@
 package com.retail.ui.automation.pages;
 
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
 import com.retail.ui.automation.base.BaseTest;
 import com.retail.ui.automation.india.stores.pages.AppleBKC;
 import com.retail.ui.automation.india.stores.pages.AppleHebbal;
@@ -12,70 +12,71 @@ import com.retail.ui.automation.utils.TestUtils;
 import com.retail.ui.automation.utils.WaitUtils;
 
 public class LandingPageIndia extends BaseTest {
-	private WebDriver driver;
+
     private WaitUtils waitUtils;
     private TestUtils testUtils;
 
-    public LandingPageIndia(WebDriver driver) {
-        this.driver = driver;
-        this.waitUtils = new WaitUtils(driver);
-        this.testUtils = new TestUtils(driver);
-        PageFactory.initElements(driver, this);
+    public LandingPageIndia() {
+        this.waitUtils = new WaitUtils(getDriver());
+        this.testUtils = new TestUtils(getDriver());
+        PageFactory.initElements(getDriver(), this);
     }
+    
+    private By findAStoreLink =
+            By.linkText("Find a store");
+    
+    private By searchBar =
+            By.xpath("//input[@type='text' and @class='form-textbox-input']");
+    
+    private By magnifyingIcon =
+            By.xpath("//span[@class='form-icons form-icons-search19']");
+    
+    private By completeStoreList =
+            By.linkText("Complete store list");
 
-    @FindBy(linkText = "Find a store")
-    private WebElement findAStoreLink;
+    private By pageHeadline =
+            By.xpath("//h2[@class='headline']");
+    
+    private By storeCardAppleKoregaonPark =
+            By.xpath("//h3[text()='Apple Koregaon Park']");
+    
+    private By storeCardAppleHebbal =
+            By.xpath("//h3[text()='Apple Hebbal']");
 
-    @FindBy(xpath = "//input[@type='text' and @class='form-textbox-input']")
-    private WebElement searchBar;
-
-    @FindBy(xpath = "//span[@class='form-icons form-icons-search19']")
-    private WebElement magnifyingIcon;
-
-    @FindBy(linkText = "Complete store list")
-    private WebElement completeStoreList;
-
-    @FindBy(xpath = "//h2[@class='headline']")
-    private WebElement pageHeadline;
-
-    @FindBy(xpath = "//h3[text()='Apple Koregaon Park']")
-    private WebElement storeCardAppleKoregaonPark;
-
-    @FindBy(xpath = "//h3[text()='Apple Hebbal']")
-    private WebElement storeCardAppleHebbal;
-
-    @FindBy(xpath = "//h3[text()='Apple BKC']")
-    private WebElement storeCardAppleBKC;
-
-    @FindBy(xpath = "//h2[text()='Come see the best of Apple at our stores.']")
-    private WebElement programCardsHeader;
-
+    private By storeCardAppleBKC =
+            By.xpath("//h3[text()='Apple BKC']");
+    
+   
+    private By programCardsHeader =
+            By.xpath("//h2[text()='Come see the best of Apple at our stores.']");
+    
+    
     public String verifyLandingPageTitle() {
-        return driver.getTitle();
+        return getDriver().getTitle();
     }
 
     public boolean verifyFindAStoreLink() {
-        return findAStoreLink.isDisplayed();
+        return waitUtils.waitForElementVisible(findAStoreLink).isDisplayed();
     }
 
     public boolean verifySearchBar() {
-        return searchBar.isDisplayed();
+        return waitUtils.waitForElementVisible(searchBar).isDisplayed();
     }
 
     public boolean verifyMagnifyingIconInSearchBar() {
-        return magnifyingIcon.isDisplayed();
+        return waitUtils.waitForElementVisible(magnifyingIcon).isDisplayed();
     }
 
     public boolean verifyCompleteStoreListLink() {
-        return completeStoreList.isDisplayed();
+        return waitUtils.waitForElementVisible(completeStoreList).isDisplayed();
     }
 
     public boolean verifyHeadline() {
-        return pageHeadline.isDisplayed();
+        return waitUtils.waitForElementVisible(pageHeadline).isDisplayed();
     }
 
     public String verifyHeadlineText() {
-        return pageHeadline.getText();
+        return waitUtils.waitForElementVisible(pageHeadline).getText();
     }
 
     public boolean verifyStoreCardAppleKoregaonPark() {
@@ -92,17 +93,17 @@ public class LandingPageIndia extends BaseTest {
 
     public AppleKoregaonPark openAppleKoregaonPark() {
         waitUtils.waitForElementVisible(storeCardAppleKoregaonPark).click();
-        return new AppleKoregaonPark(driver);
+        return new AppleKoregaonPark();
     }
 
     public AppleHebbal openAppleHebbal() {
         waitUtils.waitForElementVisible(storeCardAppleHebbal).click();
-        return new AppleHebbal(driver);
+        return new AppleHebbal();
     }
 
     public AppleBKC openAppleBKC() {
         waitUtils.waitForElementVisible(storeCardAppleBKC).click();
-        return new AppleBKC(driver);
+        return new AppleBKC();
     }
 
     public boolean verifyProgramCardHeader() {
@@ -110,7 +111,9 @@ public class LandingPageIndia extends BaseTest {
     }
 
     public String verifyProgramCardHeaderText() {
+        WebElement header =
+                waitUtils.waitForElementVisible(programCardsHeader);
         testUtils.scrollToFeatures(programCardsHeader);
-        return programCardsHeader.getText();
+        return header.getText();
     }
 }
